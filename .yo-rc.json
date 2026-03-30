@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.1",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "copilot-1",
+    "libraryId": "561fe1e5-44e1-4ccd-a9f6-220d4f4ed614",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "copilot1",
+    "solutionShortDescription": "copilot1 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
