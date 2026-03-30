@@ -13,6 +13,7 @@
   },
   "externals": {},
   "localizedResources": {
-    "Copilot1WebPartStrings": "lib/webparts/copilot1/loc/{locale}.js"
+    "Copilot1WebPartStrings": "lib/webparts/copilot1/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
   }
 }

@@ -1,3 +1,46 @@
 {
-  "extends": "./node_modules/@microsoft/spfx-web-build-rig/profiles/default/tsconfig-base.json"
+  "extends": "./node_modules/@microsoft/rush-stack-compiler-5.3/includes/tsconfig-web.json",
+  "compilerOptions": {
+    "target": "es6",
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "strict": false,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "outDir": "lib",
+    "downlevelIteration": true,
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "inlineSources": false,
+    "allowJs": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@microsoft"
+    ],
+    "types": [
+      "webpack-env",
+      "microsoft-ajax",
+      "sharepoint"
+    ],
+    "lib": [
+      // "es5",
+      "es6",
+      "dom",
+      "es2015.collection",
+      "es2015.promise",
+      "es2017",
+      "es2021"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.json"
+  ]
 }
